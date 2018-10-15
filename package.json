@@ -1,0 +1,26 @@
+{
+  "name": "point-me",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~2.0.1",
+    "@fitbit/sdk-cli": "^1.0.2"
+  },
+  "fitbit": {
+    "appUUID": "c943a8b6-bea5-4ee7-9b67-a3f26d12f0d7",
+    "appType": "app",
+    "appDisplayName": "Point Me",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {}
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
